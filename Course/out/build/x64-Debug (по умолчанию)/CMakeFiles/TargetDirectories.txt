@@ -1,0 +1,5 @@
+C:/Users/ismat/Desktop/1task/Course/out/build/x64-Debug (по умолчанию)/CMakeFiles/edit_cache.dir
+C:/Users/ismat/Desktop/1task/Course/out/build/x64-Debug (по умолчанию)/CMakeFiles/rebuild_cache.dir
+C:/Users/ismat/Desktop/1task/Course/out/build/x64-Debug (по умолчанию)/Course/CMakeFiles/edit_cache.dir
+C:/Users/ismat/Desktop/1task/Course/out/build/x64-Debug (по умолчанию)/Course/CMakeFiles/Course.dir
+C:/Users/ismat/Desktop/1task/Course/out/build/x64-Debug (по умолчанию)/Course/CMakeFiles/rebuild_cache.dir
