@@ -1,0 +1,6 @@
+# ninja log v5
+1	515	634250716	1task/CMakeFiles/1task.dir/1task.cpp.obj	e549d7dcb4bcdf34
+9	519	634250716	1task/CMakeFiles/1task.dir/Timer.cpp.obj	6883a1965f64093d
+532	868	634250717	1task/1task.exe	bdc52f158ccb04a6
+0	461	634250772	1task/CMakeFiles/1task.dir/1task.cpp.obj	e549d7dcb4bcdf34
+462	668	634250772	1task/1task.exe	bdc52f158ccb04a6
