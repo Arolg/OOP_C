@@ -14,35 +14,34 @@
 2)
 
 **Идиома RAII** - это великое правило, без которого не может обойтись любой программист. Если задействовал ресурсы компьютера, так изволь освободить их после окончания работы. Пример  в стандартной библиотеке.
+```
+template<typename T>
 
-`template<typename T>
+class Pointer
 
-`class Pointer
+{
 
-`{
+public:
 
-`public:
+	Pointer(T* ptr) {
 
-`	Pointer(T* ptr) {
+		this->ptr = ptr;
 
-`		this->ptr = ptr;
+	}
 
-`	}
+	~Pointer() {
 
-`	~Pointer() {
+		delete ptr;
 
-`		delete ptr;
+	}
 
-`	}
+private:
 
-`
-`private:
+	T* ptr;
 
-`	T* ptr;
 
-`
-`};
-
+};
+```
 <hr>
 3)
 
