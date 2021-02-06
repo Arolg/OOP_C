@@ -1,8 +1,8 @@
-#include"1task.h"
+#include"Timer.h"
 
 Timer::Timer()
 {
-	timepoint begin = clock::now();
+	begin = clock::now();
 	std::cout << "Запустился конструктор и таймер\n";
 }
 

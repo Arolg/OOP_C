@@ -1,7 +1,7 @@
 ﻿// 1task.cpp: определяет точку входа для приложения.
 //
 
-#include "1task.h"
+#include "Timer.h"
 
 using namespace std;
 

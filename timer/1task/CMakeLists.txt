@@ -4,6 +4,6 @@
 cmake_minimum_required (VERSION 3.8)
 
 # Добавьте источник в исполняемый файл этого проекта.
-add_executable (1task "1task.cpp" "1task.h" "Timer.cpp")
+add_executable (1task "1task.cpp" "Timer.h" "Timer.cpp")
 
 # TODO: Добавьте тесты и целевые объекты, если это необходимо.
