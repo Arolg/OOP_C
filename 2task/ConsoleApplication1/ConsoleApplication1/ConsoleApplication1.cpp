@@ -44,29 +44,13 @@ private:
 	int a, b;
 };
 
-OrdinFract::OrdinFract()
-{
-	a = 0;
-	b = 1;
-}
+OrdinFract::OrdinFract() : a(0), b(1){}
 
-OrdinFract::OrdinFract(int a)
-{
-	this->a = a;
-	this->b = 1;
-}
+OrdinFract::OrdinFract(int na) : a(na), b(1){}
 
-OrdinFract::OrdinFract(int a, int b)
-{
-	this->a = a;
-	this->b = b;
-}
+OrdinFract::OrdinFract(int na, int nb) : a(na), b(nb){}
 
-OrdinFract::OrdinFract(const OrdinFract& other)
-{
-	this->a = other.a;
-	this->b = other.b;
-}
+OrdinFract::OrdinFract(const OrdinFract& other) : a(other.a), b(other.b){}
 
 OrdinFract OrdinFract::operator+(const OrdinFract& other)
 {
