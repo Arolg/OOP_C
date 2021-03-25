@@ -4,20 +4,21 @@
 #include <deque>
 #include <vector>
 #include <cstdlib>
+#include <random>
 
 int main()
 {
-    srand(time(0));
+    std::random_device rd;
+    std::mt19937 mersenne(rd());
+
     std::deque<int> deq;
     std::vector<int> vect;
-    for (int i = 1; i < 11; i++)
-    {
-        deq.push_back(i);
-    }
+    std::iota(deq.begin(), deq.end(), 1);
+
     // Добавление в начало пару чисел
-    deq.push_front(rand() % 10);
-    deq.push_front(rand() % 10);
-    deq.push_front(rand() % 10);
+    deq.push_front(mersenne());
+    deq.push_front(mersenne());
+    deq.push_front(mersenne());
 
     // Копирование содержимого контейнера в другой контейнер
     vect.resize(deq.size());
