@@ -1,0 +1,3 @@
+C:/Users/ismat/Desktop/repo/OOP_C/task_6/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/ismat/Desktop/repo/OOP_C/task_6/out/build/x64-Debug/CMakeFiles/task_6.dir
+C:/Users/ismat/Desktop/repo/OOP_C/task_6/out/build/x64-Debug/CMakeFiles/edit_cache.dir

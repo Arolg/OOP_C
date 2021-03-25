@@ -4,12 +4,11 @@ void foo1(int &a)
 {
     a++;
 }
-template<void (*T)(int &)>
-void foo()
+template<void (*T)(int &), typename ...T1>
+void foo(T1... args)
 {
-    int temp = 1;
-    T(temp);
-    std::cout << "Result is " << temp << std::endl;
+    T(args...);
+    std::cout << "Result is " << args << std::endl;
 }
 
 

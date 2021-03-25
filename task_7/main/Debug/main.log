@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\ismat\Desktop\repo\OOP_C\task_7\main\main.cpp(10,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  main.vcxproj -> C:\Users\ismat\Desktop\repo\OOP_C\task_7\Debug\main.exe
